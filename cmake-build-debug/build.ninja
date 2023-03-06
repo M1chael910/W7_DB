@@ -1,0 +1,263 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: W7_DB
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/michaelmurphy/Documents/CSC$ 121/DB/W7_DB/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target Q1
+
+
+#############################################
+# Order-only phony target for Q1
+
+build cmake_object_order_depends_target_Q1: phony || CMakeFiles/Q1.dir
+
+build CMakeFiles/Q1.dir/Q1.cpp.o: CXX_COMPILER__Q1_Debug /Users/michaelmurphy/Documents/CSC$ 121/DB/W7_DB/Q1.cpp || cmake_object_order_depends_target_Q1
+  DEP_FILE = CMakeFiles/Q1.dir/Q1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Q1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Q1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Q1
+
+
+#############################################
+# Link the executable Q1
+
+build Q1: CXX_EXECUTABLE_LINKER__Q1_Debug CMakeFiles/Q1.dir/Q1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/Q1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Q1
+  TARGET_PDB = Q1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Q2
+
+
+#############################################
+# Order-only phony target for Q2
+
+build cmake_object_order_depends_target_Q2: phony || CMakeFiles/Q2.dir
+
+build CMakeFiles/Q2.dir/Q2.cpp.o: CXX_COMPILER__Q2_Debug /Users/michaelmurphy/Documents/CSC$ 121/DB/W7_DB/Q2.cpp || cmake_object_order_depends_target_Q2
+  DEP_FILE = CMakeFiles/Q2.dir/Q2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Q2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Q2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Q2
+
+
+#############################################
+# Link the executable Q2
+
+build Q2: CXX_EXECUTABLE_LINKER__Q2_Debug CMakeFiles/Q2.dir/Q2.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/Q2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Q2
+  TARGET_PDB = Q2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Q3
+
+
+#############################################
+# Order-only phony target for Q3
+
+build cmake_object_order_depends_target_Q3: phony || CMakeFiles/Q3.dir
+
+build CMakeFiles/Q3.dir/Q3.cpp.o: CXX_COMPILER__Q3_Debug /Users/michaelmurphy/Documents/CSC$ 121/DB/W7_DB/Q3.cpp || cmake_object_order_depends_target_Q3
+  DEP_FILE = CMakeFiles/Q3.dir/Q3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Q3.dir
+  OBJECT_FILE_DIR = CMakeFiles/Q3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Q3
+
+
+#############################################
+# Link the executable Q3
+
+build Q3: CXX_EXECUTABLE_LINKER__Q3_Debug CMakeFiles/Q3.dir/Q3.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/Q3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Q3
+  TARGET_PDB = Q3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Q4
+
+
+#############################################
+# Order-only phony target for Q4
+
+build cmake_object_order_depends_target_Q4: phony || CMakeFiles/Q4.dir
+
+build CMakeFiles/Q4.dir/Q4.cpp.o: CXX_COMPILER__Q4_Debug /Users/michaelmurphy/Documents/CSC$ 121/DB/W7_DB/Q4.cpp || cmake_object_order_depends_target_Q4
+  DEP_FILE = CMakeFiles/Q4.dir/Q4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Q4.dir
+  OBJECT_FILE_DIR = CMakeFiles/Q4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Q4
+
+
+#############################################
+# Link the executable Q4
+
+build Q4: CXX_EXECUTABLE_LINKER__Q4_Debug CMakeFiles/Q4.dir/Q4.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/Q4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Q4
+  TARGET_PDB = Q4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Q5
+
+
+#############################################
+# Order-only phony target for Q5
+
+build cmake_object_order_depends_target_Q5: phony || CMakeFiles/Q5.dir
+
+build CMakeFiles/Q5.dir/Q5.cpp.o: CXX_COMPILER__Q5_Debug /Users/michaelmurphy/Documents/CSC$ 121/DB/W7_DB/Q5.cpp || cmake_object_order_depends_target_Q5
+  DEP_FILE = CMakeFiles/Q5.dir/Q5.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Q5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Q5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Q5
+
+
+#############################################
+# Link the executable Q5
+
+build Q5: CXX_EXECUTABLE_LINKER__Q5_Debug CMakeFiles/Q5.dir/Q5.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/Q5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Q5
+  TARGET_PDB = Q5.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/michaelmurphy/Documents/CSC 121/DB/W7_DB/cmake-build-debug" && "/Users/michaelmurphy/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/michaelmurphy/Documents/CSC 121/DB/W7_DB/cmake-build-debug" && "/Users/michaelmurphy/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S"/Users/michaelmurphy/Documents/CSC 121/DB/W7_DB" -B"/Users/michaelmurphy/Documents/CSC 121/DB/W7_DB/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/michaelmurphy/Documents/CSC 121/DB/W7_DB/cmake-build-debug
+
+build all: phony Q1 Q2 Q3 Q4 Q5
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Users/michaelmurphy/Documents/CSC$ 121/DB/W7_DB/CMakeLists.txt /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Users/michaelmurphy/Documents/CSC$ 121/DB/W7_DB/CMakeLists.txt /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/michaelmurphy/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
